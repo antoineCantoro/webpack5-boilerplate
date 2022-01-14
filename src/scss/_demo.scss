@@ -1,0 +1,24 @@
+$red: red;
+
+.container {
+    font-family: $font-roboto , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+    @include media(">phone", "<=tablet") {
+        color: green;
+    }
+}
+
+.css {
+    background-image: url('../assets/img/css.png');
+    background-position: center center;
+    width: 300px;
+    padding-bottom: 300px;
+}
